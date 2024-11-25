@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gold Rush Clicker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        #goldCounter {
+            font-size: 2em;
+            margin: 20px 0;
+            color: #ffc107;
+        }
+        #clickButton {
+            font-size: 1.5em;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #clickButton:hover {
+            background-color: #0056b3;
+        }
+        #resetButton {
+            font-size: 1em;
+            margin-top: 20px;
+            padding: 5px 15px;
+            background-color: #6c757d;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #resetButton:hover {
+            background-color: #5a6268;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gold Rush Clicker!</h1>
+    <div id="goldCounter">Gold: 0</div>
+    <button id="clickButton">Mine Gold</button>
+    <br>
+    <button id="resetButton">Reset</button>
+    <script src="game.js"></script>
+</body>
+</html>
